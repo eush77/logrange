@@ -29,13 +29,20 @@ logrange(4, 0.1, 0.5)
 
 ## API
 
-#### logrange(first, last, ratio)
+#### logrange([opts], first, last, ratio)
 
-Returns array of multiples of `first` up to `last` (not including, if it happens to be the case):
+Returns array of multiples of `first` up to `last`:
 
 ```js
 [first, first*ratio, first*ratio*ratio, ...]
 ```
+
+##### opts.inclusive
+
+Type: `Boolean`<br>
+Default: `false`
+
+If set, `last` is included if it is a part of the sequence.
 
 ## Install
 
