@@ -1,6 +1,6 @@
 {
   "name": "logrange",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Logarithmic range between two numbers",
   "author": "Eugene Sharygin <eush77@gmail.com>",
   "license": "MIT",
