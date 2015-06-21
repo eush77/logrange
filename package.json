@@ -30,7 +30,9 @@
     "ratio",
     "factor",
     "multiply",
-    "multiplication"
+    "multiplication",
+    "inclusive",
+    "exclusive"
   ],
   "dependencies": {
     "mathops": "^1.0.0"
